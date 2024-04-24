@@ -28,8 +28,11 @@ export default function Home() {
         className="absolute inset-0 -z-10 animate-fade-in"
         quantity={100}
       />
-      <h1 className="z-10 text-4xl text-transparent duration-1000 bg-gradient-to-tl from-indigo-950 via-cyan-300/20 to-indigo-950 cursor-default text-edge-outline animate-title font-display sm:text-6xl md:text-9xl whitespace-nowrap bg-clip-text ">
-        Andreas Kontos
+      <h1 className="relative z-10 text-4xl text-transparent duration-1000 bg-gradient-to-tl from-indigo-950 via-cyan-300/20 to-indigo-950 cursor-default text-edge-outline animate-title font-main tracking-tighter sm:text-6xl md:text-9xl whitespace-nowrap bg-clip-text ">
+        LEDGIC
+        <span className="w-full sm:tracking-[10px] md:tracking-[15px] leading-normal tracking-[5px] text-[6px] md:p-2 text-center bg-gradient-to-tl from-purple-950 font-name via-black/90  to-purple-950  z-10  text-cyan-200 sm:leading-5 sm:text-[8px] p-0 md:text-sm absolute top-[40%] left-0 right-0">
+          ANDREAS KONTOS
+        </span>
       </h1>
 
       <div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-cyan-300/0 via-cyan-300/50 to-cyan-300/0" />

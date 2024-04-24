@@ -49,9 +49,27 @@ const calSans = LocalFont({
   variable: "--font-calsans",
 });
 
+const zenDots = LocalFont({
+  src: "../public/fonts/ZenDots-Regular.ttf",
+  variable: "--font-zendots",
+});
+
+const blackOps = LocalFont({
+  src: "../public/fonts/BlackOpsOne-Regular.ttf",
+  variable: "--font-blackops",
+});
+
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={[inter.variable, calSans.variable].join(" ")}>
+    <html
+      lang="en"
+      className={[
+        inter.variable,
+        calSans.variable,
+        zenDots.variable,
+        blackOps.variable,
+      ].join(" ")}
+    >
       <head>
         <Analytics />
       </head>
