@@ -16,7 +16,7 @@ export const metadata = {
     siteName: "andreas-kontos.vercel.app",
     images: [
       {
-        url: "https://chronark.com/og.png",
+        url: "https://andreas-kontos.vercel.app/og.png",
         width: 1920,
         height: 1080,
       },
