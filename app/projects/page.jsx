@@ -29,7 +29,7 @@ export const allProjects = [
     title: "Natours",
     description:
       "A web-store about trips in the wild nature.  A project I created with the guidance of Jonas Schmedtmann, while attending his lessons in Udemy. Be patient with load cause i deployed it on render and with free tier it goes auto-sleep.",
-    url: "https://natours-ledgic.onrender.com/",
+    url: "https://natours-ledgic.vercel.app/",
     date: "2023-04-10T00:00:00.000Z",
   },
   {
