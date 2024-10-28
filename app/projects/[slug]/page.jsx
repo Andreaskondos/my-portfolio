@@ -8,7 +8,7 @@ import "@/app/projects/[slug]/mdx.css";
 
 export const revalidate = 60;
 
-export default async function PostPage({ params }) {
+export async function generateMetadata({ params }) {
   const slug = params?.slug;
   const project = allProjects.find((project) => project.slug === slug);
 
@@ -16,6 +16,18 @@ export default async function PostPage({ params }) {
     notFound();
   }
 
+  return {
+    title: project.title,
+  };
+}
+
+export default async function PostPage({ params }) {
+  const slug = params?.slug;
+  const project = allProjects.find((project) => project.slug === slug);
+
+  if (!project) {
+    notFound();
+  }
   // const views =
   //   (await redis.get) < number > ["pageviews", "projects", slug].join(":") ?? 0;
 

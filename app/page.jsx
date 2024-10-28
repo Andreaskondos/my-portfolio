@@ -39,9 +39,9 @@ export default function Home() {
       <div className="my-16 text-center animate-fade-in">
         <h2 className="text-sm text-zinc-400 ">
           A versatile full-stack developer who successfully transitioned from a
-          Chief Engineer in the Navy, bringing a unique blend of technical
-          expertise, adaptability, and problem-solving skills to software
-          development. My latest creation is the website{" "}
+          Chief Engineer in the Navy, <br /> bringing a unique blend of
+          technical expertise, adaptability, and problem-solving skills to
+          software development. <br /> My latest creation is the website{" "}
           <Link
             target="_blank"
             href="https://allaboutmoms.vercel.app"

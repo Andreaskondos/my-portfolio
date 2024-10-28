@@ -5,12 +5,16 @@ import { Card } from "../components/card";
 import { Article } from "./article";
 // import { Eye } from "lucide-react";
 
+export const metadata = {
+  title: "Projects",
+};
+
 export const allProjects = [
   {
     published: true,
     slug: "all-about-moms",
     title: "All About Moms",
-    description: `A blog about parenthood, mothership and kids. Created for my wife who asked for it and never used it though. 🤷‍♂️ 🥲 \n Tech used: Next.js, styled-components, JS, React, NextAuth, TypeScript, MongoDB, JWT, Vercel`,
+    description: `A blog about parenthood, mothership and kids. Created for my wife who asked for it and never used it though. 🤷‍♂️ 🥲 \n \n Tech used: Next.js, styled-components, JS, React, NextAuth, TypeScript, MongoDB, JWT, Vercel`,
     url: "https://allaboutmoms.vercel.app",
     date: "2024-04-22T00:00:00.000Z",
   },
@@ -19,7 +23,7 @@ export const allProjects = [
     slug: "the-wild-oasis",
     title: "The Wild Oasis",
     description:
-      "A dashboard for managing cabins and guests. \n Tech used: React-router, styled-components, JS, React, Supabase, PostgreSQL, SupaAuth, Netlify",
+      "A dashboard for managing cabins and guests. \n \n Tech used: React-router, styled-components, JS, React, Supabase, PostgreSQL, SupaAuth, Netlify",
     url: "https://the-wild-oasis-ledgic.netlify.app/",
     date: "2024-01-12T00:00:00.000Z",
   },
@@ -28,7 +32,7 @@ export const allProjects = [
     slug: "natours-fullstack",
     title: "Natours",
     description:
-      "A web-store about trips in the wild nature. \n It lacks media-queries. So view it above medium screen size. \n Tech used: Node.js, scss, JS, express, mongodb, Vercel",
+      "A web-store about trips in the wild nature. \n \n It lacks media-queries. So view it above medium screen size. \n \n Tech used: Node.js, SCSS, JS, Express, JWT, Stripe, MongoDB, Vercel",
     url: "https://natours-ledgic.vercel.app/",
     date: "2023-04-10T00:00:00.000Z",
   },
