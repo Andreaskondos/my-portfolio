@@ -10,7 +10,7 @@ export const allProjects = [
     published: true,
     slug: "all-about-moms",
     title: "All About Moms",
-    description: `A blog about parenthood, mothership and kids. Created for my wife who asked for it and never used it though 🤷‍♂️ 🥲`,
+    description: `A blog about parenthood, mothership and kids. Created for my wife who asked for it and never used it though. 🤷‍♂️ 🥲 \n Tech used: Next.js, styled-components, JS, React, NextAuth, TypeScript, MongoDB, JWT, Vercel`,
     url: "https://allaboutmoms.vercel.app",
     date: "2024-04-22T00:00:00.000Z",
   },
@@ -19,7 +19,7 @@ export const allProjects = [
     slug: "the-wild-oasis",
     title: "The Wild Oasis",
     description:
-      "A webapp for managing cabins and guests. A project I created with the guidance of Jonas Schmedtmann, while attending his lessons in Udemy",
+      "A dashboard for managing cabins and guests. \n Tech used: React-router, styled-components, JS, React, Supabase, PostgreSQL, SupaAuth, Netlify",
     url: "https://the-wild-oasis-ledgic.netlify.app/",
     date: "2024-01-12T00:00:00.000Z",
   },
@@ -28,7 +28,7 @@ export const allProjects = [
     slug: "natours-fullstack",
     title: "Natours",
     description:
-      "A web-store about trips in the wild nature.  A project I created with the guidance of Jonas Schmedtmann, while attending his lessons in Udemy. Be patient with load cause i deployed it on render and with free tier it goes auto-sleep.",
+      "A web-store about trips in the wild nature. \n It lacks media-queries. So view it above medium screen size. \n Tech used: Node.js, scss, JS, express, mongodb, Vercel",
     url: "https://natours-ledgic.vercel.app/",
     date: "2023-04-10T00:00:00.000Z",
   },
@@ -53,8 +53,7 @@ export const allProjects = [
     published: true,
     slug: "fast-pizza-co",
     title: "Fast Pizza Co.",
-    description:
-      "A website for pizzeria. A project I created with the guidance of Jonas Schmedtmann, while attending his lessons in Udemy",
+    description: "A website for pizzeria.",
     url: "https://fast-pizza-co-ledgic.netlify.app/",
     date: "2023-12-24T00:00:00.000Z",
   },
@@ -63,7 +62,7 @@ export const allProjects = [
     slug: "use-popcorn",
     title: "usePopcorn",
     description:
-      "A webapp for managing your movies that you have watched, rating them and more. A project I created with the guidance of Jonas Schmedtmann, while attending his lessons in Udemy",
+      "A webapp for managing your movies that you have watched, rating them and more.",
     url: "https://use-popcorn-ledgic.netlify.app/",
     date: "2023-12-09T00:00:00.000Z",
   },
@@ -72,7 +71,7 @@ export const allProjects = [
     slug: "eat-n-split",
     title: "Eat 'n Split",
     description:
-      "A webapp for spliting the expenses with your friend/s after going out. A project I created with the guidance of Jonas Schmedtmann, while attending his lessons in Udemy",
+      "A webapp for spliting the expenses with your friend/s after going out.",
     url: "https://eat-n-split-ledgic.netlify.app/",
     date: "2023-11-20T00:00:00.000Z",
   },
@@ -81,7 +80,7 @@ export const allProjects = [
     slug: "travel-list",
     title: "Travel List",
     description:
-      "A webapp to manage your items and get ready your luggages before a trip. A project I created with the guidance of Jonas Schmedtmann, while attending his lessons in Udemy",
+      "A webapp to manage your items and get your luggages ready before a trip.",
     url: "https://travel-list-ledgic.netlify.app/",
     date: "2023-11-16T00:00:00.000Z",
   },
@@ -89,8 +88,7 @@ export const allProjects = [
     published: true,
     slug: "nexter",
     title: "Nexter",
-    description:
-      "A website for real estates. A project I created with the guidance of Jonas Schmedtmann, while attending his lessons in Udemy",
+    description: "A landpage of a webapp for real estates.",
     url: "https://nexter-ledgic.netlify.app/",
     date: "2023-01-10T00:00:00.000Z",
   },
@@ -98,8 +96,7 @@ export const allProjects = [
     published: true,
     slug: "trillo",
     title: "Trillo",
-    description:
-      "A landpage of a webapp for booking and rating hotels. A project I created with the guidance of Jonas Schmedtmann, while attending his lessons in Udemy",
+    description: "A landpage of a webapp for booking and rating hotels.",
     url: "https://trillo-ledgic.netlify.app/",
     date: "2023-01-04T00:00:00.000Z",
   },
@@ -107,8 +104,7 @@ export const allProjects = [
     published: true,
     slug: "react-quiz",
     title: "React Quiz",
-    description:
-      "A react quiz, let's do some refreshing? A project I created with the guidance of Jonas Schmedtmann, while attending his lessons in Udemy",
+    description: "A react quiz, let's do some refreshing?",
     url: "https://react-quiz-ledgic.netlify.app/",
     date: "2023-12-24T00:00:00.000Z",
   },
@@ -116,8 +112,7 @@ export const allProjects = [
     published: true,
     slug: "natours-frontend",
     title: "Natours Landpage",
-    description:
-      "The landpage of Natours. A project I created with the guidance of Jonas Schmedtmann, while attending his lessons in Udemy",
+    description: "The landpage of Natours.",
     url: "https://natours-frontend-ledgic.netlify.app/",
     date: "2022-12-29T00:00:00.000Z",
   },
@@ -125,8 +120,7 @@ export const allProjects = [
     published: true,
     slug: "forkify",
     title: "Forkify",
-    description:
-      "A website for creating and search food recipes. A project I created with the guidance of Jonas Schmedtmann, while attending his lessons in Udemy",
+    description: "A website for creating and search food recipes.",
     url: "https://forkify-ledgic.netlify.app/",
     date: "2022-11-12T00:00:00.000Z",
   },
@@ -151,7 +145,7 @@ export const allProjects = [
     slug: "omnifood",
     title: "OmniFood",
     description:
-      "A webapp for a 365-days-per-year food subscription that will make you eat healthy again. Tailored to your personal tastes and nutritional needs. A project I created with the guidance of Jonas Schmedtmann, while attending his lessons in Udemy",
+      "A webapp for a 365-days-per-year food subscription that will make you eat healthy again. Tailored to your personal tastes and nutritional needs.",
     url: "https://omnifood-ledgic.netlify.app/",
     date: "2022-07-23T00:00:00.000Z",
   },
@@ -190,8 +184,8 @@ export default async function ProjectsPage() {
             Projects
           </h2>
           <p className="mt-4 text-zinc-400">
-            Some of the projects are on my own time and some are from campus,
-            tutorials and udemy lessons.
+            In each project there is an iFrame element to show the live demo and
+            a link to the website
           </p>
         </div>
         <div className="w-full h-px bg-zinc-800" />

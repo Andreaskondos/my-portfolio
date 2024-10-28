@@ -8,10 +8,12 @@ export const metadata = {
     default: "andreas-kontos.com",
     template: "%s | andreas-kontos.com",
   },
-  description: "An aspiring full-stack developer",
+  description:
+    "A versatile full-stack developer who successfully transitioned from a Chief Engineer in the Navy, bringing a unique blend of technical expertise, adaptability, and problem-solving skills to software development.",
   openGraph: {
     title: "andreas-kontos.com",
-    description: "An aspiring full-stack developer",
+    description:
+      "A versatile full-stack developer who successfully transitioned from a Chief Engineer in the Navy, bringing a unique blend of technical expertise, adaptability, and problem-solving skills to software development.",
     url: "https://andreas-kontos.vercel.app",
     siteName: "andreas-kontos.vercel.app",
     images: [
